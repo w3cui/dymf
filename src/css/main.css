@@ -280,3 +280,4 @@ body .jw-skin-bce .jw-background-color{ background: #3e1e13; }
 body .jw-skin-bce .jw-slider-time .jw-slider-container{ height: .2em; top: 5px; }
 body .jw-skin-bce .jw-slider-time{ top: -16px; background: none; }
 body .jw-warning{opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter: alpha(opacity=0);}
+body .jw-skin-bce .jw-controlbar-right-group .jw-icon-playrate .jw-playrate-label{ border-color: #ccc; }

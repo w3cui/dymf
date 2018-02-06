@@ -1,7 +1,7 @@
 (function(cyberplayer) {
 	var config = {};
 
-
+// http://cyberplayer.bcelive.com/demo/index.html
 
 	function playerFn(join) {
 		this.config = {

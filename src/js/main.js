@@ -4,13 +4,12 @@
 	function playerFn(join) {
 		this.playlist = join.playlist;
 		this.config = {
-			file: join.file || "",
-			image: join.image || ""
+			playlist: join.item,
 		};
 		var date = new Date();
 		this.el = "player_" + date.getTime();
-		$(".video-player").attr("id", this.el);
-		this.cyber = this.myPlayer();
+		$(join.toggle + " .video-player").attr("id", this.el);
+		this.playerApi = this.myPlayer();
 	};
 	playerFn.prototype.myPlayer = function() {
 		return cyberplayer(this.el).setup({
@@ -18,53 +17,45 @@
 			width: 650,
 			height: 365,
 			// autostart: true,
-			// primary: "html5",
+			primary: "html5",
 			controlbar: {
 				barLogo: false
 			},
-			playlist: [ // 播放列表设置
-				{
-					sources: [{
-						file: "http://content.bitsontherun.com/videos/bkaovAYt-52qL9xLP.mp4"
-					}],
-					title: "视频1"
-				}, {
-					sources: [{
-						file: "http://gcqq450f71eywn6bv7u.exp.bcevod.com/mda-hbqagik5sfq1jsai/mda-hbqagik5sfq1jsai.mp4"
-					}],
-					title: "视频2"
-				}
-			]
+			playlist: this.config.playlist
 		});
 	};
 	playerFn.prototype.remove = function() {
-		this.cyber.remove();
+		this.playerApi.remove();
 	};
 	playerFn.prototype.onTime = function(fn) {
-		this.cyber.onTime(function(event) {
+		this.playerApi.onTime(function(event) {
 			fn(event);
 			// console.log(event);
 		});
 	};
 	playerFn.prototype.pause = function(fn) {
-		this.cyber.pause();
+		this.playerApi.pause();
 	};
 	playerFn.prototype.play = function(fn) {
-		this.cyber.play();
+		this.playerApi.play();
 	};
 
-	var pl = new playerFn({});
+	playerFn.prototype.getPlaylist = function(fn) {
+		return this.playerApi.getPlaylist();
+	};
 
-	function getPlayer(config) {
-		var pl = new playerFn(config);
+	playerFn.prototype.playlistItem = function(index) {
+		return this.playerApi.playlistItem(index);
+		this.play();
+	};
 
-	}
 
-	pl.onTime(function(d) {
-		// console.log(d);
-	});
+
 	// 获取播放列表
 	// myPlayer. getPlaylist();
+	// 获取当前播放对象
 	// myPlayer. getPlaylistItem();
-	window.pl = pl;
+	// 播放对象 index 进行播放
+	// myPlayer.playlistItem(2);
+	window.$player = playerFn;
 })(cyberplayer);

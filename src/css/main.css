@@ -146,6 +146,7 @@ i{font-style:normal}
 .video-kc .group-video .video .r .list-video dt{height:30px;line-height:30px;font-size:16px;background-position:-353px -149px;padding-left:20px;cursor:pointer;}
 .video-kc .group-video .video .r .list-video dt.open{background-position:-353px -180px;color:#f7e7bb;}
 .video-kc .group-video .video .r .list-video dd{line-height:30px;padding-left:20px;cursor:pointer;}
+.video-kc .group-video .video .r .list-video dd p.active{ color: #f7e7bb; }
 
 
 .video-kc .group-video .video-menu{height:75px;background:url(../images/viode_xian.jpg) top center no-repeat;}

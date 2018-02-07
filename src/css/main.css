@@ -1,5 +1,5 @@
 *{padding:0px;margin:0px;list-style:none;box-sizing:border-box;border-collapse:collapse;-webkit-overflow-scrolling:touch;}
-body{font-family:sans-serif,"微软雅黑","Arial Black", Gadget;font-size:14px;color:#333333;background:url(../images/body_bg.jpg);}
+body{font-family:"Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;color:#333333;background:url(../images/body_bg.jpg);}
 footer,header,nav,section,article,aside,details,figcaption,figure,hgroup,main,menu,summary{display:block;}
 h1,h2,h3,h4,h5,h6{font-weight:normal;}
 /*img{display:block;border:none;width:100%;}*/
@@ -141,7 +141,7 @@ i{font-style:normal}
 .video-kc .group-video .video .r .top ul{position:absolute;left:0;top:0}
 .video-kc .group-video .video .r .top li{display:inline-block;height:39px;line-height:40px;padding:0 10px;color:#fff;cursor:pointer;}
 .video-kc .group-video .video .r .top li.current{border-bottom:solid 2px #f7e7bb;color:#f7e7bb;}
-.video-kc .group-video .video .r .top .more{width:40px;height:40px;line-height:40px;float:right;border-left:solid 1px #3e1e13;color:#fff;text-align: center;}
+.video-kc .group-video .video .r .top .more{width:40px;height:40px;line-height:40px;float:right; cursor: pointer; border-left:solid 1px #3e1e13;color:#fff;text-align: center;}
 .video-kc .group-video .video .r .list-video{height:324px;overflow:auto;color:#fff;padding:10px}
 .video-kc .group-video .video .r .list-video dt{height:30px;line-height:30px;font-size:16px;background-position:-353px -149px;padding-left:20px;cursor:pointer;}
 .video-kc .group-video .video .r .list-video dt.open{background-position:-353px -180px;color:#f7e7bb;}
@@ -292,7 +292,11 @@ i{font-style:normal}
 
 body .jwplayer.jw-flag-user-inactive.jw-state-playing .jw-controlbar, 
 body .jwplayer.jw-flag-user-inactive.jw-state-playing .jw-dock, 
-body .jwplayer.jw-flag-user-inactive.jw-state-playing .jw-logo.jw-hide{
+body .jwplayer.jw-flag-user-inactive.jw-state-playing .jw-logo.jw-hide,
+body .jwplayer.jw-state-error .jw-captions, 
+body .jwplayer.jw-state-error .jw-controlbar, 
+html body .jw-error .jw-captions, 
+html body .jw-error .jw-controlbar{
 	display: block;
 }
 body .jw-skin-bce .jw-controlbar{ bottom: -45px; width: 960px; padding-top: 17px; display: block;  }
@@ -301,3 +305,4 @@ body .jw-skin-bce .jw-slider-time .jw-slider-container{ height: .2em; top: 5px; 
 body .jw-skin-bce .jw-slider-time{ top: -16px; background: none; }
 body .jw-warning{opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter: alpha(opacity=0);}
 body .jw-skin-bce .jw-controlbar-right-group .jw-icon-playrate .jw-playrate-label{ border-color: #ccc; }
+body .jw-skin-bce .jw-display-icon-container{ border:0; }

@@ -1,9 +1,8 @@
 (function(cyberplayer) {
 	var config = {};
 
-// http://cyberplayer.bcelive.com/demo/index.html
-
 	function playerFn(join) {
+		this.playlist = join.playlist;
 		this.config = {
 			file: join.file || "",
 			image: join.image || ""
@@ -18,8 +17,8 @@
 			primary: "videojs",
 			width: 650,
 			height: 365,
-			autostart: true,
-			primary: "html5",
+			// autostart: true,
+			// primary: "html5",
 			controlbar: {
 				barLogo: false
 			},
@@ -64,5 +63,8 @@
 	pl.onTime(function(d) {
 		// console.log(d);
 	});
+	// 获取播放列表
+	// myPlayer. getPlaylist();
+	// myPlayer. getPlaylistItem();
 	window.pl = pl;
 })(cyberplayer);

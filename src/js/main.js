@@ -1,6 +1,6 @@
 (function(cyberplayer) {
 	var config = {};
-
+// http://helloweb.wang/ziyuangongxiang/jiaobendaima/2015-11-24/389.html
 	function playerFn(join) {
 		this.playlist = join.playlist;
 		this.config = {

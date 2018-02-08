@@ -148,9 +148,12 @@ i{font-style:normal}
 .dym-info .top .group-tx .tx-4{width:428px;height:300px;position:absolute;top:50%;left:248px;margin-top:-150px;}
 .dym-info .top .group-tx .tx-4 ul{min-height:30px;margin-bottom:23px;}
 .dym-info .top .group-tx .tx-4 ul li{display:inline-block;border:solid 1px #f0bf57;}
-.dym-info .top .group-tx .tx-4 ul li span{display:inline-block;padding:0 6px;border:solid 3px #ffe9ac;line-height:25px;background:#f0bf57;}
-.dym-info .top .group-tx .tx-4 .f{margin-top:4px}
-.dym-info .top .group-tx .tx-4 .c{margin-bottom:10px}
+.dym-info .top .group-tx .tx-4 ul > span{display:inline-block;width:19px;height:20px;background-position:-270px -75px;}
+.dym-info .top .group-tx .tx-4 ul li span{display:inline-block;padding:0 6px;border:solid 3px #ffe9ac;line-height:25px;background:#f0bf57;font-size:14px}
+.dym-info .top .group-tx .tx-4 .a{margin-top:4px}
+.dym-info .top .group-tx .tx-4 .c{margin-bottom:30px}
+.dym-info .top .group-tx .tx-4 .d{margin-bottom:6px;}
+.dym-info .top .group-tx .tx-4 .e{margin-bottom:16px;}
 
 .video-kc{height:606px;background:url(../images/kechengdianbo.jpg) #f3d990 top center no-repeat;padding:45px 0px 76px}
 .video-kc >div {margin:0px 20px 0px}

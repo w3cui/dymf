@@ -21,9 +21,10 @@ img{width: 100%;outline: none;border: none;}
 .la_icon_ios{ background-image: url(../images/la_icon_19.png); }
 
 .ld_header{ height: 3.5rem; width: 100%; background: #4067b2; text-align: right; border-bottom: solid 1px #395898;  }
-.ld_header a{ width: 20%; overflow: hidden; text-align: center; color: #1b2e59; line-height: 3.5rem; font-size: 1.3rem; display: inline-block; height: 3.5rem; overflow:hidden;  }
+.ld_header a{ float: left; width: 20%; overflow: hidden; text-align: center; color: #1b2e59; line-height: 3.5rem; font-size: 1.3rem; display: inline-block; height: 3.5rem; overflow:hidden;  }
 .ld_header a.active{ color: #fff; }
 .ld_header a:active{ background-color: #375eaa; }
+.ld_header p{float: left; width: 20%;}
 .ld_header .ld_icon{}
 
 .la_tab{ height: 3rem; line-height: 3rem; border-bottom: solid 2px #d3d2d8; color: #000; font-size: 1.3rem; }

@@ -1,5 +1,5 @@
 body,div,span,a,ul,li,em,i,section,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
-body,html{font-family: 'Microsoft Yahei'; height: 100%; font-size: 14px; padding: 0; margin:0;}
+body,html{height: 100%; font-size: 14px; padding: 0; margin:0;}
 ul,li{list-style: none;}
 a{text-decoration: none}
 img{width: 100%;outline: none;border: none;}
@@ -18,7 +18,7 @@ img{width: 100%;outline: none;border: none;}
 .la_icon_ios{ background-image: url(../images/la_icon_19.png); }
 
 .ld_header{ height: 3.5rem; width: 100%; background: #4067b2; text-align: right; border-bottom: solid 1px #395898;  }
-.ld_header a{ width: 20%; text-align: center; color: #1b2e59; line-height: 3.5rem; font-size: 1.3rem; display: inline-block; height: 3.5rem; overflow:hidden;  }
+.ld_header a{ width: 20%; overflow: hidden; text-align: center; color: #1b2e59; line-height: 3.5rem; font-size: 1.3rem; display: inline-block; height: 3.5rem; overflow:hidden;  }
 .ld_header a.active{ color: #fff; }
 .ld_header a:active{ background-color: #375eaa; }
 .ld_header .ld_icon{}
@@ -36,7 +36,7 @@ img{width: 100%;outline: none;border: none;}
 .la_info .text .nr span{ color: #000; }
 
 .ld_cnent{ padding: 2rem; }
-.ld_cnent img{ width: 90%; display: block; margin:auto; }
+.ld_cnent img{ width: 95%; display: block; margin:auto; }
 
 .la_ullit{ border-top: solid 1px #d3d2d8; border-bottom: solid 1px #d3d2d8; height: 3rem; overflow: hidden; }
 .la_ullit li{ float: left; width: 25%; position: relative;z-index:2; line-height: 3rem; height: 3rem; text-align: center; }

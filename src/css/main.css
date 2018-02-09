@@ -246,7 +246,7 @@ i{font-style:normal}
 .footer .footer-info .link .link-a dt{ text-align: right; line-height: 26px; float: left; }
 .footer .footer-info .link .link-a dd{ width: 600px;    width: 500px;    float: left;    line-height: 26px; }
 
-
+.com-main{ background-image: url(../images/def_body_bg.jpg); }
 .w_1200,.w_1000{ min-width: 1000px; _width: 1000px; max-width: 1200px; margin: auto; text-align: left; position: relative; z-index: 0; }
 .w_1000{ width: 1000px; }
 .p_a{position: absolute; z-index: 5;}
@@ -255,7 +255,7 @@ i{font-style:normal}
 
 .com-center{ background: #ebdcb4; }
 .com-center .com-left{ width: 220px;  float: left;}
-.com-center .com-right{ width: 780px;  float: left; overflow: hidden;}
+.com-center .com-right{ width: 778px;  float: left; overflow: hidden; border-left: solid 2px #f6e6c5;}
 
 .icon-tab{ height: 40px; line-height: 40px; color: #fff;font-size: 18px; text-align: center; background: url(../images/new_03.jpg) no-repeat center center #8d4127;font-weight: 400;}
 
@@ -264,7 +264,7 @@ i{font-style:normal}
 .com-left-nav dt a{height: 40px; line-height: 40px; color:#333 ; font-size:16px ; padding-left: 35px; text-align: left;}
 .com-left-nav dt a:hover{background: rgba(255,255,255,.1);}
 .com-left-nav dt.active a,.com-left-nav.active dt a{ color: #8d4127; }
-.com-left-nav.active dt{ background: #f6e6c5 url(../images/icon.png) -325px -61px no-repeat;}
+.com-left-nav.active dt{ background: #f6e6c5 url(../images/icon.png) -325px -101px no-repeat;}
 .com-left-nav dd a{ line-height: 40px; height: 40px; padding-left: 50px; text-align: left; color: #666; font-size: 16px;  }
 .com-left-nav dd a:hover{ background: #f6e6c5; }
 .com-left-nav dd{ display: none; }
@@ -273,7 +273,7 @@ i{font-style:normal}
 
 
 .new-ullit{ min-height: 500px; padding-bottom: 20px; }
-.new-ullit li .bt{ height: 40px; line-height: 40px; padding-left: 50px; background: #f6e6c5 url(../images/icon.png) -305px -103px no-repeat;}
+.new-ullit li .bt{ height: 40px; line-height: 40px; padding-left: 50px; background: #f6e6c5 url(../images/icon.png) -315px -61px no-repeat;}
 .new-ullit li .bt h3 a{ font-size: 18px;color: #8d4127; }
 .new-ullit li .bt h3{ float: left;font-weight: 400; }
 .new-ullit li .bt .time{ float: right; width: 250px; padding-right: 50px; text-align: right; color: #c1804c; font-size: 14px; line-height: 40px; }

@@ -1,0 +1,61 @@
+body,div,span,a,ul,li,em,i,section,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+body,html{font-family: 'Microsoft Yahei'; height: 100%; font-size: 14px; padding: 0; margin:0;}
+ul,li{list-style: none;}
+a{text-decoration: none}
+img{width: 100%;outline: none;border: none;}
+
+.p_a{position: absolute; z-index: 5;}
+.ov_h{ overflow:hidden; height: 0; }
+.fl{ float: left; }
+.fr{ float: right; }
+.ld_icon{ display: inline-block; position: relative; z-index: 5; background: center center no-repeat; }
+.ld_search{ background-image:url(../images/icon_ss.png); background-size: auto 60%; }
+.la_icon_love{ background-image:url(../images/la_icon_03.png); }
+.la_icon_new{ background-image:url(../images/la_icon_05.png); }
+.la_icon_gz{ background-image:url(../images/la_icon_07.png); }
+.la_icon_fx{ background-image:url(../images/la_icon_09.png); }
+.la_up_and{ background-image: url(../images/la_icon_16.png); }
+.la_icon_ios{ background-image: url(../images/la_icon_19.png); }
+
+.ld_header{ height: 3.5rem; width: 100%; background: #4067b2; text-align: right; border-bottom: solid 1px #395898;  }
+.ld_header a{ width: 20%; text-align: center; color: #1b2e59; line-height: 3.5rem; font-size: 1.3rem; display: inline-block; height: 3.5rem; overflow:hidden;  }
+.ld_header a.active{ color: #fff; }
+.ld_header a:active{ background-color: #375eaa; }
+.ld_header .ld_icon{}
+
+.la_tab{ height: 3rem; line-height: 3rem; border-bottom: solid 2px #d3d2d8; color: #000; font-size: 1.3rem; }
+.la_tab span{ color: #838383; }
+
+.la_info { position: relative; z-index: 4; margin: 0 1rem; }
+.la_info .img{ width: 3.8rem; height: 3.8rem; float: left; border-radius: 2rem;  position: absolute;left: 0;top: 1rem;z-index: 1; background-color: #333;} 
+.la_info .img { width: 3.8rem; height: 3.8rem;  }
+.la_info .text{ margin-left: 4.5rem; padding-top: .5rem;}
+.la_info .text .time{ line-height: 2rem; height: 2rem; overflow:hidden;text-overflow: ellipsis;    white-space: nowrap; font-size: 1rem;}
+.la_info .text .time > *{ width: 50%; overflow:hidden;text-overflow: ellipsis;    white-space: nowrap;}
+.la_info .text .nr{ color: #a4a4a4; font-size: 1rem; }
+.la_info .text .nr span{ color: #000; }
+
+.ld_cnent{ padding: 2rem; }
+.ld_cnent img{ width: 90%; display: block; margin:auto; }
+
+.la_ullit{ border-top: solid 1px #d3d2d8; border-bottom: solid 1px #d3d2d8; height: 3rem; overflow: hidden; }
+.la_ullit li{ float: left; width: 25%; position: relative;z-index:2; line-height: 3rem; height: 3rem; text-align: center; }
+.la_ullit li:before{ content: ""; display: block; position: absolute; right: 0; top: 0; height: 100%; overflow: hidden; width: 1px; background-color: #d3d2d8;  }
+.la_ullit li a{ display:block; color: #6a6a6a; font-size: 1.1rem; height: 3.5rem; }
+.la_ullit li .ld_icon{height: 2rem; width: 2rem; background-size: 100% 100%; top: .5rem;}
+.la_ullit li a:hover{ background-color: #f1f1f1; }
+
+.la_good{border-top: .8rem solid #cfd0d4; padding-bottom: 5px;}
+.la_good .list{ height: 3rem; line-height: 3rem;margin: 0 .8rem; }
+.la_good .list > *{ width: 50%; overflow:hidden;text-overflow: ellipsis;    white-space: nowrap; height: 3rem;}
+.la_good .list i{ text-decoration: underline; font-style: normal; }
+.la_good .list b{ color: #ff2c55; font-weight: 400; margin-left: 1rem; } 
+.la_good .list a{ float: right; background-color: #4067b2; font-size: 1rem; padding: 0 1rem; border-radius: 5px; position: relative;z-index: 0; top: .5rem; color: #fff; line-height: 2rem; height: 2rem; }
+
+.la_btn{ height: 3.5rem;  border-top: solid 2px #cbcacf; }
+.la_btn a{ width: 50%; color: #fff; float: left; background-color: #395898; font-size: 1.3rem; text-align: center; position: relative;z-index: 0; }
+.la_btn a:before{ content: ""; display: block; position: absolute; right: 0; top:0; height: 100%; width: 1px; overflow:hidden; background-color: #fff; }
+.la_btn a:nth-child(2):before{ left: 0; }
+.la_btn a .ld_icon{ width: 2.5rem; height: 2.5rem; background-size: 90% 90%;top: .5rem; }
+.la_btn a span{ display: inline-block; height: 2.5rem; position: relative;top: -.2rem; }
+.la_btn a:active{ background-color: #375eaa; }

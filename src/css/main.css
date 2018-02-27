@@ -138,14 +138,14 @@ i{font-style:normal}
 
 
 .dym-info .top .group-tx{width:690px;height:360px;background:url(../images/tx_bg.png) #ffe9ac right bottom no-repeat;border-radius:4px;position:relative;color:#8d4127;font-size:16px;}
-.dym-info .top .group-tx .tx-1{width:97px;height:130px;line-height:118px;text-align:center;position:absolute;top:50%;left:16px;margin-top:-65px;background:url(../images/tx_jg_1.png);}
-.dym-info .top .group-tx .tx-2{width:104px;height:274px;position:absolute;top:50%;left:60px;margin-top:-138px;}
-.dym-info .top .group-tx .tx-2 li{width:104px;height:94px;line-height:94px;text-align:center;background:url(../images/tx_jg_2.png);}
+.dym-info .top .group-tx .tx-1{width:7px; padding:53px 40px 0 30px;  height:197px;line-height:26px;text-align:center;position:absolute;top:50%;left:8px;margin-top:-98px;background:url(../images/tx_jg_1.png); font-size: 22px;}
+.dym-info .top .group-tx .tx-2{width:104px;height:274px;position:absolute;top:50%;left:80px;margin-top:-138px;}
+.dym-info .top .group-tx .tx-2 li{width:104px;height:94px;line-height:94px;font-weight: bold; text-align:center;background:url(../images/tx_jg_2.png);}
 .dym-info .top .group-tx .tx-2 .f{margin-bottom:85px}
-.dym-info .top .group-tx .tx-3{width:88px;height:300px;position:absolute;top:50%;left:150px;margin-top:-150px;}
-.dym-info .top .group-tx .tx-3 li{width:88px;height:40px;line-height:40px;text-align:center;background:url(../images/tx_jg_3.png);margin-top:48px;}
+.dym-info .top .group-tx .tx-3{width:88px;height:300px;position:absolute;top:50%;left:170px;margin-top:-150px;}
+.dym-info .top .group-tx .tx-3 li{width:88px;height:40px; font-weight: bold; line-height:40px;text-align:center;background:url(../images/tx_jg_3.png);margin-top:48px;}
 .dym-info .top .group-tx .tx-3 .f{margin:0;}
-.dym-info .top .group-tx .tx-4{width:428px;height:300px;position:absolute;top:50%;left:248px;margin-top:-150px;}
+.dym-info .top .group-tx .tx-4{width:428px;height:300px;position:absolute;top:50%;left:268px;margin-top:-150px;}
 .dym-info .top .group-tx .tx-4 ul{min-height:30px;margin-bottom:23px;}
 .dym-info .top .group-tx .tx-4 ul li{display:inline-block;border:solid 1px #f0bf57;}
 .dym-info .top .group-tx .tx-4 ul > span{display:inline-block;width:19px;height:20px;background-position:-270px -75px;}
@@ -203,11 +203,11 @@ i{font-style:normal}
 .kecheng .table{clear:both}
 .kecheng .table .title{height:39px;border:solid 1px #ede6cd;border-bottom:none;}
 .kecheng .table .title li{width:33.33%;float:left;height:inherit;line-height:37px;color:#f0ead3;}
-.kecheng .table .title li.l{background:url(../images/table_l_bg.jpg) left center no-repeat;}
-.kecheng .table .title li.l span{margin-left:35px;}
+.kecheng .table .title li.l{background:url(../images/table_l_bg.jpg) left center no-repeat; text-align: left;}
+.kecheng .table .title li.l span{margin-left:35px;font-size: 14px; line-height: 37px; text-align: left; display: block;}
 .kecheng .table .title li.c{text-align:center;color:#f0bf57;font-weight:bold;font-size:18px;}
 .kecheng .table .title li.r{text-align:right;background:url(../images/table_r_bg.jpg) right center no-repeat;}
-.kecheng .table .title li.r span{margin-right:35px;}
+.kecheng .table .title li.r span{margin-right:35px; font-size: 14px;line-height: 37px; text-align: right; display: block;}
 
 
 .kecheng .table .info{border-right:solid 1px #ede6cd;}
@@ -235,10 +235,13 @@ i{font-style:normal}
 .footer .footer-nav{height:67px;background:url(../images/footer_xian.jpg) bottom center no-repeat;}
 .footer .footer-nav li{width:25%;float:left; text-align: center;}
 .footer .footer-nav li a{display:inline-block;height:40px;line-height:40px;font-size:16px;width:120px;background:url(../images/in_ioc_24.jpg);text-align:center;margin:0 auto;color:#fff;}
-.footer .footer-nav li a:hover{ opacity: .9; }
+.footer .footer-nav li a:hover{ opacity: .9; color: #f3d990; }
 .footer .footer-info{clear:both;margin-top:30px; }
 .footer .footer-info .erweima{width:360px;float:left;text-align: right; padding-right: 20px;}
-.footer .footer-info .erweima img{display:inline-block;width:65px;margin:0 10px; border:solid 3px #d7b68f; border-radius: 3px;}
+.footer .footer-info .erweima img{display:inline-block;width:65px; border:solid 3px #d7b68f; border-radius: 3px;}
+.footer .footer-info .erweima .code{margin:0 10px; width: 70px; display: inline-block;
+	text-align: center; line-height: 20px; font-size: 14px; color: #f7e7bb;
+}
 .footer .footer-info .link{width:610px;float:right;}
 .footer .footer-info .link div{line-height: 32px;font-size:12px; color: #c7a27f;}
 .footer .footer-info .link a{display:inline-block;margin:0 10px;color:#f7e7bb;}
@@ -270,7 +273,7 @@ i{font-style:normal}
 .com-left-nav dd{ display: none; }
 .com-left-nav dt{ border-top: solid 1px #f6e6c5; }
 .com-left-nav.active dd{ display: block; }
-
+.com-left-nav.active dd.active{color: #a56d54;}
 
 .new-ullit{ min-height: 500px; padding-bottom: 20px; }
 .new-ullit li .bt{ height: 40px; line-height: 40px; padding-left: 50px; background: #f6e6c5 url(../images/icon.png) -315px -61px no-repeat;}
@@ -290,7 +293,7 @@ i{font-style:normal}
 .detailed-title{ padding-top: 10px font-size: 24px;color:#8d4127; font-weight: 400; text-align: center; line-height: 60px; text-align:center; }
 .detailed-time{ text-align:center; padding-bottom: 20px; }
 .detailed-time span{ background: #f6e6c5; border-radius: 50px; padding: 0 10px; font-size: 14px;color: #333; }
-.detailed-cent{line-height: 24px; margin:0 20px; color: #333; border-top: solid 1px #f6e6c5; padding-top: 20px; min-height: 400px;}
+.detailed-cent{line-height: 24px; margin:0 20px; color: #333; border-top: solid 1px #f6e6c5; padding: 20px 0; min-height: 400px;}
 .detailed-cent img{ max-width: 100%; _width:100%; }
 
 .com-banner img{ width: 100%; display: block;  }

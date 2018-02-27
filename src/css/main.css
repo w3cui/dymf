@@ -273,7 +273,7 @@ i{font-style:normal}
 .com-left-nav dd{ display: none; }
 .com-left-nav dt{ border-top: solid 1px #f6e6c5; }
 .com-left-nav.active dd{ display: block; }
-.com-left-nav.active dd.active{color: #a56d54;}
+.com-left-nav dd.active a{color: #a56d54; background: #e4d4a7;}
 
 .new-ullit{ min-height: 500px; padding-bottom: 20px; }
 .new-ullit li .bt{ height: 40px; line-height: 40px; padding-left: 50px; background: #f6e6c5 url(../images/icon.png) -315px -61px no-repeat;}

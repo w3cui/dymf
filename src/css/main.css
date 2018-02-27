@@ -231,8 +231,8 @@ i{font-style:normal}
 
 
 
-.footer{background:url(../images/footer_03.png);min-height:100px;_height: 100px; color:#f7e7bb;font-size:12px;padding:47px 0;}
-.footer .footer-nav{height:87px;background:url(../images/footer_xian.jpg) bottom center no-repeat;}
+.footer{background:url(../images/footer_03.png);min-height:100px;_height: 100px; color:#f7e7bb;font-size:12px;padding:37px 0;}
+.footer .footer-nav{height:67px;background:url(../images/footer_xian.jpg) bottom center no-repeat;}
 .footer .footer-nav li{width:25%;float:left; text-align: center;}
 .footer .footer-nav li a{display:inline-block;height:40px;line-height:40px;font-size:16px;width:120px;background:url(../images/in_ioc_24.jpg);text-align:center;margin:0 auto;color:#fff;}
 .footer .footer-nav li a:hover{ opacity: .9; }

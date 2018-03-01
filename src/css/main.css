@@ -99,7 +99,8 @@ i{font-style:normal}
 .nav .nav-border{height:6px;background:url(../images/nav_border.jpg);}
 .nav .nav-a{background:#f4bf4e;}
 .nav .nav-a span{display:block;float:left;height:49px;background-position:-292px -157px;width:27px;}
-.nav .nav-a a{background: url(../images/icon_nav.png); display:block;float:left;width:110px;height:49px;line-height:600px; overflow: hidden; color:#853922;font-size:18px;margin:0 12px;text-align:center;}
+/*background: url(../images/icon_nav.png);*/
+.nav .nav-a a{ display:block;float:left;width:110px;height:49px;line-height:49px; overflow: hidden; color:#853922;font-size:18px;margin:0 12px;text-align:center;}
 .nav .nav-a a.current{background-color:#8d4127;color:#e8c791;}
 .nav .nav-a a:hover,.nav .nav-a a.current{background-color:#8d4127;color:#e8c791; background-position: 0 -50px;}
 .nav .nav-a a.a2{ background-position: -110px 0; }

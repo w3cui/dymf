@@ -132,11 +132,11 @@ i{font-style:normal}
 .dym-info .top .notice .list-notice li:hover{ background: #863a20; }
 .dym-info .top .system{width:694px;float:right;height:inherit;font-size:16px;margin:0 20px 0px 10px;}
 /*.dym-info .top .system img{display:block;width:100%;}*/
-.dym-info .bottom{clear:both;}
-.dym-info .bottom li{width:179px;height:58px;line-height:52px;float:left;font-size:18px;margin-left:17px;text-align:center;color:#954c31;font-weight:bold;cursor:pointer;background-position:-188px -2px;}
-.dym-info .bottom li.current{background-position:-3px -2px;}
-.dym-info .bottom li:hover{background-position:-3px -2px;}
-.dym-info .bottom li a{color:#954c31;}
+.dym-info .bottom{clear:both; text-align: center;}
+.dym-info .bottom a{width:179px;height:58px;line-height:52px; display: inline-block; font-size:18px;margin-left:17px;text-align:center;color:#954c31;font-weight:bold;cursor:pointer;background-position:-188px -2px;}
+.dym-info .bottom a.current{background-position:-3px -2px;}
+.dym-info .bottom a:hover{background-position:-3px -2px;}
+.dym-info .bottom a{color:#954c31;}
 
 
 
@@ -239,7 +239,7 @@ i{font-style:normal}
 
 
 .footer{background:url(../images/footer_03.png);min-height:100px;_height: 100px; color:#f7e7bb;font-size:12px;padding:37px 0;}
-.footer .footer-nav{height:67px;background:url(../images/footer_xian.jpg) bottom center no-repeat;}
+.footer .footer-nav{height:67px; text-align: center; background:url(../images/footer_xian.jpg) bottom center no-repeat;}
 .footer .footer-nav li{width:23%;display: inline-block; text-align: center; _float: left; _width:25%;}
 .footer .footer-nav li a{display:inline-block;height:40px;line-height:40px;font-size:16px;width:120px;background:url(../images/in_ioc_24.jpg);text-align:center;margin:0 auto;color:#fff;}
 .footer .footer-nav li a:hover{ opacity: .9; color: #f3d990; }
@@ -345,7 +345,7 @@ body .jw-skin-bce .jw-display-icon-container{ border:0; }
 
 
 .kj-main{background:url(../images/kg_bg_03.jpg); position: relative;z-index: 0;  }
-.kj-icon-bt{height: 75px; width: 602px; text-align: center; z-index: 5; display: block; margin:auto; overflow:hidden;  margin-bottom: 40px; position: relative; top: 20px; 
+.kj-icon-bt{height: 75px; clear: both; width: 602px; text-align: center; z-index: 5; display: block; margin:auto; overflow:hidden;  margin-bottom: 40px; position: relative; top: 20px; 
 		line-height: 75px; color: #fff; font-size: 26px; text-align: center;
 } 
 .kj-icon-bt span{background: url(../images/kj_icon.jpg);display: inline-block; position: relative; z-index: 0; height: 75px; line-height: 75px; padding-left: 100px;}
@@ -379,9 +379,9 @@ body .jw-skin-bce .jw-display-icon-container{ border:0; }
 .kj-mv-list ul li a{ color: #8d4127; }
 .kj-mv-list ul li a:hover{ text-decoration: underline; color: #c19c4c; }
 
-.kj-cp-list{ height: 280px; }
+.kj-cp-list{  }
 .kj-cp-list li{ float: left; width: 33.3%; }
-.kj-cp-list li .cent{ margin: 0 15px;text-align: center; }
+.kj-cp-list li .cent{ margin: 0 15px;text-align: center; height: 314px; overflow: hidden; }
 .kj-cp-list li .cent .img{background:#f2d583; text-align: center; padding: 27px 0; }
 .kj-cp-list li .cent .img img{ height: 165px; display: block; margin: auto; max-width: 100%; }
 .kj-cp-list li .cent h3{ font-size: 18px; text-align: center; line-height: 35px; height: 35px; color: #8d4127; }

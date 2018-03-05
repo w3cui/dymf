@@ -139,6 +139,7 @@
                     </div>
                     <div class="r">
                         <div class="top player_tab">
+                        	<div class="more_left"><</div>
                             <div class="tab">
                                 <ul>
                                     <li class="current">视频1</li>
@@ -448,8 +449,7 @@
         var videoList = '.video-kc .group-video .video .r .top ul';
         var videoIndex = 0;
         $(".video-kc .group-video .video .r .top .more").on("click",function(){
-        	var _w = $(videoList).width(),
-        		orentWidth = $(videoList).parent().width();
+        	
         	if(videoIndex == ($(videoList).find("li").length-1) ){
         		$(videoList).find("li:eq(0)").click();
         		$(videoList).animate({"left":0});
@@ -460,6 +460,23 @@
         	$(videoList).find("li:eq("+(videoIndex+1)+")").click();
         	$(videoList).animate({"left":"-="+($(videoList).find("li:eq("+videoIndex+")").width()+20)+"px"},200)
         	videoIndex++;
+        })
+        $(".video-kc .group-video .video .r .top .more_left").on("click",function(){
+        	
+        	if(videoIndex == 0 ){
+        		$(videoList).find("li:eq("+($(videoList).find("li").length-1)+")").click();
+        		var w = 0;
+        		$.each($(videoList).find("li"),function(){
+        			w = w + $(this).width();
+        		})
+        		$(videoList).animate({"left":"-"+w+"px"});
+        		videoIndex = $(videoList).find("li").length-1;
+        		return false;
+        	}
+
+        	$(videoList).find("li:eq("+(videoIndex-1)+")").click();
+        	$(videoList).animate({"left":"+="+($(videoList).find("li:eq("+videoIndex+")").width()+20)+"px"},200)
+        	videoIndex--;
         })
 
 

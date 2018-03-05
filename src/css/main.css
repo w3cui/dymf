@@ -341,7 +341,7 @@ body .jw-skin-bce .jw-slider-time .jw-slider-container{ height: .2em; top: 5px; 
 body .jw-skin-bce .jw-slider-time{ top: -16px; background: none; }
 body .jw-warning{opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);filter: alpha(opacity=0);}
 body .jw-skin-bce .jw-controlbar-right-group .jw-icon-playrate .jw-playrate-label{ border-color: #ccc; }
-body .jw-skin-bce .jw-display-icon-container{ border:0; }
+body .jw-skin-bce .jw-display-icon-container{ border:0; } 
 
 
 .kj-main{background:url(../images/kg_bg_03.jpg); position: relative;z-index: 0;  }

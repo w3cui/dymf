@@ -369,7 +369,7 @@
 </html>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/player/cyberplayer.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/player.js"></script>
 <script type="text/javascript">
     !(function($win){
         
@@ -401,11 +401,11 @@
                 id:4
             }];
 
-        var $p = new $player({
-            toggle:".video-kc",
-            // 播放列表设置
-            item:playItem
-        });
+        // var $p = new $player({
+        //     toggle:".video-kc",
+        //     // 播放列表设置
+        //     item:playItem
+        // });
 
         // @id => 更具id查找列表中的视频并进行播放
         $win.playlistItem = function(id,fn){
@@ -445,6 +445,22 @@
             $(".player_list .list-video").hide();
             $(".player_list .list-video:eq("+$(this).index()+")").show();
         });
+        var videoList = '.video-kc .group-video .video .r .top ul';
+        var videoIndex = 0;
+        $(".video-kc .group-video .video .r .top .more").on("click",function(){
+        	var _w = $(videoList).width(),
+        		orentWidth = $(videoList).parent().width();
+        	if(videoIndex == ($(videoList).find("li").length-1) ){
+        		$(videoList).find("li:eq(0)").click();
+        		$(videoList).animate({"left":0});
+        		videoIndex = 0;
+        		return false;
+        	}
+
+        	$(videoList).find("li:eq("+(videoIndex+1)+")").click();
+        	$(videoList).animate({"left":"-="+($(videoList).find("li:eq("+videoIndex+")").width()+20)+"px"},200)
+        	videoIndex++;
+        })
 
 
     })(window);
